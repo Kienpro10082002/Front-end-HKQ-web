@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div.aside img.rounded-circle {
+    margin-left: 13px;
+    width: 100px;
+    /* chiều rộng mặc định cho hình ảnh */
+    height: auto;
+    /* chiều cao tự động để giữ tỷ lệ khung hình */
+}
+
+@media (max-width: 576px) {
+    div.aside img.rounded-circle {
+        margin-left: 35px;
+        width: 50px;
+        /* chiều rộng mới cho hình ảnh trên điện thoại */
+    }
+}
