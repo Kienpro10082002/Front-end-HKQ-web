@@ -1,0 +1,31 @@
+.container {
+    margin-top: 50px;
+}
+
+#addUserButton {
+    margin-top: 10px;
+}
+
+.search-container {
+    display: flex;
+    height: 50px;
+}
+
+.search-container input[type="text"] {
+    flex: 1;
+    height: 100%;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.search-container button[type="submit"] {
+    height: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
